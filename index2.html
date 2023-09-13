@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>rajivpugazhenthi</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" property="og:title" content="[Content title here]">
+    <meta property="og:type" content="javaScript">
+    <meta name="image" property="og:image"
+        content="https://camo.githubusercontent.com/e1c457d6089109d23519608575c9c8248ed47b4ff63bfcce21150b6d795ebb13/68747470733a2f2f692e696d6775722e636f6d2f765758775461522e706e67">
+    <meta name="description" property="og:description" content="
+    This is my portfolio website. 
+    It's created with CSS and HTML and javaScript. 
+    I used Flexbox to style my nav items and social media links.
+    I used media queries to make it responsive. so i works well on mobile devices.">
+    <meta name="author" content="rajiv pugazhenthi">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-80TS1CCG4Z"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-80TS1CCG4Z');
+    </script>
+</head>
+
+<body>
+    <div class="body-wrapper">
+        <nav id="popup-nav" class="display-none">
+            <ul id="popup-nav-ul">
+                <li id="close"><img src="images/mobile-nav-close-button.png" alt="mobile nav close"></li>
+                <li id="portfolio-item"><a href="#work-area-grid">Portfolio</a></li>
+                <li id="about-item"><a href="#about-section">About</a></li>
+                <li id="contact-item">
+                    <a href="#contact-section-container">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <header>
+                <nav>
+                    <ul class="nav-items-ul flex">
+                        <li id="my-logo-nav-item"><a href="#logo">Dyary
+                                Raoof
+                                BayzAgha</a></li>
+                        <li class="left-nav-items"><a href="#work-area-grid">Portfolio</a></li>
+                        <li class="left-nav-items"><a href="#about-section">About</a></li>
+                        <li class="left-nav-items">
+                            <a href="#contact-section-container">
+                                Contact
+                            </a>
+                        </li>
+                        <li id="hamburger-nav-item">
+                            <a href="#">
+                                <img src="images/hamburger-icon.png" alt="hamburger
+                                        icon">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section id="hero-section">
+                <div id="hero-area-content">
+                    <h1>
+                        I’m rajiv<br>
+                        nice to see you!
+                    </h1>
+                    <p>a dedicated computer science student with a passion for coding and web development
+                        ,
+                       beginner in programming languages such as java,sql and html/css. 
+                        !
+                       have a hunger for newknowledge and a strong attention to detail.
+                        currently seeking internship opportunities to apply knowledge and gain practical experience.
+                    </p>
+                    <label class="lets-connect-label">LETS CONNECT</label>
+                    <ul>
+                        <li><span><a href="https://twitter.com/dyaryraoof"><img src="images/twitter-icon.svg" alt="Twitter
+                                            Icon"></a></span></li>
+                        <li><span><a href="https://www.linkedin.com/in/dyaryraoof/"><img src="images/linked-in-icon.svg"
+                                        alt="LinkedIn
+                                            Icon"></a></span></li>
+                        <li><span><a a href="https://github.com/dyaryraoof"><img src="images/github-icon.svg" alt="Github
+                                            Icon"></a></span></li>
+                    
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+
+        <section id="work-area-grid">
+
+            <section class="work-card first-card flex">
+                <img class="work-card-desktop-image"
+                    src="https://github.com/DyaryRaoof/javascript-capstone/raw/development/app_screenshot.png" alt="Tonic work
+                        card">
+                <img class="work-card-mobile-image"
+                    src="https://github.com/DyaryRaoof/javascript-capstone/raw/development/app_screenshot.png" alt="Tonic work
+                        card">
+                <div class="work-card-content">
+                    <h1>profession</h1>
+                    <ul class="flex work-card-tonic-top-links">
+                        <li>student</li>
+                        <li class="work-card-top-links-2-3">Front End</li>
+                        <li class="work-card-top-links-2-3">2022</li>
+                    </ul>
+                    <p>
+                       a computer science student.
+                       with beginner level profiency in languages such as java,sql and html/css.
+                    </p>
+                    <ul class="work-card-languages-ul flex">
+                        <li>html</li>
+                        <li>css</li>
+                        <li>javaScript</li>
+                    </ul>
+                    <button class="styled-button see-project" type="button">See
+                        Project</button>
+                </div>
+            </section>
+
+            <section class="work-card image-to-the-left flex">
+                <img class="work-card-desktop-image" src="images/budget_screenshot.png" alt="Tonic
+                        work
+                        card">
+                <img class="work-card-mobile-image" src="images/budget_screenshot.png" alt="Tonic work
+                        card">
+                <div class="work-card-content">
+                    <h1>Budget</h1>
+                    <ul class="flex work-card-tonic-top-links">
+                        <li>Self-Employed</li>
+                        <li class="work-card-top-links-2-3">Back End Dev</li>
+                        <li class="work-card-top-links-2-3">2022</li>
+                    </ul>
+                    <p>
+                        This is a Ruby on Rails capstone project from Microverse curriculum.
+                        It is about building a mobile web application where you can manage your budget:
+                        you have a list of transactions associated with a category,
+                        so that you can see how much money you spent and on what.
+                    </p>
+                    <ul class="work-card-languages-ul flex">
+                        <li>html</li>
+                        <li>Ruby on rails</li>
+                        <li>css</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                    <button class="styled-button see-project" type="button">See
+                        Project</button>
+                </div>
+            </section>
+
+            <section class="work-card first-card flex">
+                <img class="work-card-desktop-image"
+                    src="https://github.com/DyaryRaoof/motors-frontend/raw/dev/screenshot1.png" alt="Tonic work
+                        card">
+                <img class="work-card-mobile-image"
+                    src="https://github.com/DyaryRaoof/motors-frontend/raw/dev/screenshot1.png" alt="Tonic work
+                        card">
+                <div class="work-card-content">
+                    <h1>Motors</h1>
+                    <ul class="flex work-card-tonic-top-links">
+                        <li>SELF EMPLOYED</li>
+                        <li class="work-card-top-links-2-3">Full Stack Dev</li>
+                        <li class="work-card-top-links-2-3">2022</li>
+                    </ul>
+                    <p>
+                        This is a website that allows users to login, see list of motorcycle models,
+                        register a motorcycle or delete motorcycles,
+                        create reservations for motorcycles with city and date and see list of reservation.
+                        All of this is handled with react and redux and gets info from the back-end api.
+                        this project was built as the final capstone project for the Microverse full-stack developer
+                        curriculum
+                    </p>
+                    <ul class="work-card-languages-ul flex">
+                        <li>html</li>
+                        <li>Ruby on rails</li>
+                        <li>React js</li>
+                        <li>javaScript</li>
+                    </ul>
+                    <button class="styled-button see-project" type="button">See
+                        Project</button>
+                </div>
+            </section>
+
+            <section class="work-card image-to-the-left flex">
+                <img class="work-card-desktop-image"
+                    src="https://github.com/DyaryRaoof/motors-frontend/raw/dev/screenshot1.png" alt="Tonic
+                        work
+                        card">
+                <img class="work-card-mobile-image"
+                    src="https://github.com/DyaryRaoof/motors-frontend/raw/dev/screenshot1.png" alt="Tonic work
+                        card">
+                <div class="work-card-content">
+                    <h1>Motors Back End</h1>
+                    <ul class="flex work-card-tonic-top-links">
+                        <li>SElF EMPLOYED</li>
+                        <li class="work-card-top-links-2-3">Full Stack Dev</li>
+                        <li class="work-card-top-links-2-3">2022</li>
+                    </ul>
+                    <p>
+                        This is a Ruby on Rails final capstone project from Microverse curriculum.
+                        This is a API that allows users to login, get list of motorcycle models,
+                        register a motorcycle or delete motorcycles,
+                        create reservations for motorcycles with city and date and get list of reservation.
+                    </p>
+                    <ul class="work-card-languages-ul flex">
+                        <li>Ruby on rails</li>
+                        <li>Ruby</li>
+                    </ul>
+                    <button class="styled-button see-project" type="button">See
+                        Project</button>
+                </div>
+            </section>
+
+
+            <section id="about-section" class="flex">
+                <div class="about-section-content">
+                    <h1>
+                        About<br>
+                        Myself
+
+                    </h1>
+                    <p>Hello I’m a software developer!
+                        I can help you build a product ,
+                        feature or website Look through some of my work and
+                        experience!
+                        If you like what you see and have a project you need
+                        coded,
+                        don’t hestiate to contact me.
+                    </p>
+                    <label class="lets-connect-label">LETS CONNECT</label>
+                    <ul>
+                        <li><span><a href="https://twitter.com/dyaryraoof"><img src="images/twitter-icon.svg" alt="Twitter
+                                            Icon"></a></span></li>
+                        <li><span><a href="https://www.linkedin.com/in/dyaryraoof/"><img src="images/linked-in-icon.svg"
+                                        alt="LinkedIn
+                                            Icon"></a></span></li>
+                        <li><span><a href="https://medium.com/@dyaryraoof"><img src="images/medium-icon.svg" alt="Medium
+                                            Icon"></a></span></li>
+                        <li><span><a a href="https://github.com/dyaryraoof"><img src="images/github-icon.svg" alt="Github
+                                            Icon"></a></span></li>
+                        <li><span><a href="https://angel.co/u/dyaryraoof"><img src="images/angellist-icon.svg" alt="Angellist
+                                            Icon"></a></span></li>
+                    </ul>
+                    <button class="styled-button" type="button">Get My
+                        Resume</button>
+                </div>
+                <ul id="about-section-dropdowns">
+                    <li class="flex language-icons-header-li">
+                        <label>Languages</label>
+                        <img src="images/dropdown-icon.png" alt="dropdown
+                                icon">
+                    </li>
+                    <li class="about-drop-down-icons-middle">
+                        <div>
+                            <img src="images/javascript-icon.png" alt="javascript icon">
+                            <label>javaScript</label>
+                        </div>
+                        <div>
+                            <img src="images/html-icon.png" alt="html icon">
+                            <label>HTML</label>
+                        </div>
+                        <div>
+                            <img src="images/css-icon.png" alt="css icon">
+                            <label>css</label>
+                        </div>
+                    </li>
+                    <li class="flex about-2-3-dropdowns">
+                        <label>Frameworks</label>
+                        <img src="images/right-arrow-icon.png" alt="dropdown
+                                icon">
+                    </li>
+                    <li>
+                        <hr>
+                    </li>
+
+                    <li class="flex about-2-3-dropdowns">
+                        <label>Skills</label>
+                        <img src="images/right-arrow-icon.png" alt="dropdown
+                                icon">
+                    </li>
+                    <li>
+                        <hr>
+                    </li>
+
+                </ul>
+            </section>
+
+        </section>
+
+        <div id="contact-section-container">
+            <section class="contact-section flex">
+                <h1 id="contact-header">Contact Me</h1>
+                <p id="contact-detail">If you have an application you are
+                    interested
+                    in developing,
+                    a feature that you need built or a project that needs
+                    coding.
+                    I’d love to help with it
+                </p>
+                <form action="https://formspree.io/f/mzbykgne" method="POST" class="flex">
+                    <input id="form-name" name="name" type="text" placeholder="full name" maxlength="30" required>
+                    <input id="email" name="email" type="email" placeholder="email" required>
+                    <textarea id="form-description" name="msg" placeholder="Write your message here..." maxlength="500"
+                        required></textarea>
+                    <span id="form-email-error-span" class="display-none" aria-live="polite"></span>
+                    <button type="submit" class="styled-button">Get In Touch</button>
+                </form>
+            </section>
+        </div>
+    </div>
+    <div class="display-none" id="popup-wrapper">
+        <div id="popup-header">
+            <h1 id="popup-window-header"></h1>
+            <img id="popup-window-close-button" src="images/Icon-close-popup-detail.png" alt="close
+                    popup
+                    button">
+        </div>
+        <ul id="popup-sub-header" class="flex
+                work-card-tonic-top-links">
+            <li id="popup-window-languages1"></li>
+            <li id="popup-window-languages2" class="work-card-top-links-2-3"></li>
+            <li id="popup-window-languages3" class="work-card-top-links-2-3"></li>
+        </ul>
+        <div id="popup-image-wrapper">
+            <img id="popup-image" src="#" alt="pop up
+                    main image">
+        </div>
+        <div class="popup-body">
+            <p id="popup-window-paragraph-detail"></p>
+            <div class="popup-footer">
+                <ul id="popup-technologies">
+                    <li id="popup-window-technologies1"></li>
+                    <li id="popup-window-technologies2"></li>
+                    <li id="popup-window-technologies3"></li>
+                    <li id="popup-window-technologies4"></li>
+                </ul>
+                <div id="popup-buttons">
+                    <button id="see-live">See Live<img src="images/icon-see-live.png" alt="See Live"></button>
+                    <button id="see-source">See Source<img src="images/icon-github-blue.png" alt="Github"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
